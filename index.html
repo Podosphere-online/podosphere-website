@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podosphere</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- link Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- link smooth-scrol-js -->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script>
+        function scroll_bottom() {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+    </script>
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Images/navbar_logo.png " alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#end" onclick="scroll_bottom()">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ---------------------Banner-Section------------------------ -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="banner-title">Podosphere</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit possimus et rem itaque
+                        distinctio, modi eligendi nostrum</p>
+                    <a href="#"><img src="./Images/calender-icon.png" class="calender-icon" alt="">Check Our Events</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="./Images/navbar_logo.png" class="img-fluid    " alt="">
+                </div>
+            </div>
+        </div>
+        <img src="./Images/wave1.png" class="bottom-img" alt="">
+    </section>
+
+    <!-- ---------------------about-us-Section------------------------ -->
+    <section id="about-us">
+        <div class="container text-center">
+            <h1 class="title text-center">Our Purpose</h1>
+            <div class="row text-center">
+                <div class="col-md-4 about-us">
+                    <img src="Images/icons/service1.png" class="about-img" alt="">
+                    <h4>Grow Your Connections</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur expedita fuga nobis unde.
+                        Veniam illo saepe ipsa, nisi omnis vel.</p>
+                </div>
+                <div class="col-md-4 about-us">
+                    <img src="Images/icons/service2.png" class="about-img" alt="">
+                    <h4>Gain Crucial Knowledge</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur expedita fuga nobis unde.
+                        Veniam illo saepe ipsa, nisi omnis vel.</p>
+                </div>
+                <div class="col-md-4 about-us">
+                    <img src="Images/icons/service3.png" class="about-img" alt="">
+                    <h4>Land a Job</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur expedita fuga nobis unde.
+                        Veniam illo saepe ipsa, nisi omnis vel.</p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">All About-us</button>
+        </div>
+    </section>
+    <!-- --------------------Events ---------------------------- -->
+    <section id="events">
+        <div class="container">
+            <h1 class="title text-center">Our Events?</h1>
+
+            <div class="row">
+                <!-- <div class="events col-md-6">
+                    <p class="event-title">Why we're different?</p>
+                    <ul>
+                        <li>Lorem dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem dolor sit amet consectetur adipisicing.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="Images/icons/network.png" class="img-fluid" alt="">
+                </div> -->
+                <div id="carouselExampleCaptions" class="carousel slide ">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Images/Samarth Sharma.png" class="event-img d-block w-25" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Samarth Sharma</h5>
+                          <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                      </div>
+                      <div class="event-container carousel-item">
+                        <img src="Images/Alumni Avenue.png" class="event-img d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Alumini-Avenue</h5>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/Social.jpg" class="event-img d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>social-fiest</h5>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------- Testimonials ------------------------ -->
+    <sectiion id="testimonials">
+        <div class="container">
+            <h1 class="title text-center">What Students Say?</h1>
+            <d iv class="row offset-1">
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat consequuntur illo eius
+                        accusamus ab.</p>
+                    <p><b>ABCDEF</b><br>Student at xyz</p>
+                </div>
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat consequuntur illo eius
+                        accusamus ab.</p>
+                    <p><b>ABCDEF</b><br>Student at xyz</p>
+                </div>
+        </div>
+        </div>
+    </sectiion>
+
+    <!------------------------ Social-Media --------------------------- -->
+    <section id="social-media">
+        <div class="container text-center">
+            <h1 class="title">WHERE TO FIND US?</h1>
+            <div class="social-icons">
+                <a href="https://github.com/Podosphere-online"><img src="Images/icons/github-icon.png"></a>
+                <a href="https://www.instagram.com/podosphere.online?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==""><img src="Images/icons/instagram-icon.png"></a>
+                <a href="#"><img src="Images/icons/youtube-icon.png"></a>
+                <a href="https://www.linkedin.com/company/tekin-atz/#"><img src="Images/icons/linkedin-icon.png"></a>
+                <a href="#"><img src="Images/icons/whatsapp-icon.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------FAQ Section ----------------------------- -->
+    <section id="faq">
+        <div class="container">
+            <h1 class="title text-center">FAQs</h1>
+            <div class="row">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <h6>What is Podosphere?</h6>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Podosphere is a platform that connects students, alumni, and companies, creating an ecosystem where talent meets opportunity.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <h6>How can I join Podosphere?</h6>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">You can join Podosphere by signing up on our website. Simply provide your details and follow the registration process.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <h6>Is there a fee to join?</h6>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, joining Podosphere is completely free. We offer various services to enhance your professional network and career development.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                <h6>How can I give feedback?</h6>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Feedback can be given through the 'Feedback' section on our website. We value your input and use it to improve our services.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                <h6>Who can I contact for support?</h6>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">For support, you can contact us via the 'Contact Us' section on our website or email us directly at support@podosphere.com.</div>
+                        </div>
+                    </div>
+                <div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ----------------------Footer-Section------------------------- -->
+    <section id="footer">
+        <img src="Images/icons/wave2.png" class="footer-img" alt="">
+
+        <!-- Now for the address and the form part -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="Images/navbar_logo.png" class="footer-logo" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="fa fa-envelope"></i> Mail</p>
+                    <p><i class="fa fa-phone"></i> Phone</p>
+                    <!-- <p>podosphere@gmail.com</p> -->
+                </div>
+                <!-- <div class="col-md-4 footer-box">
+                    <p><b>Write your Query</b></p>
+                    <input type="email" class="form-control" placeholder="name@example.com">
+                    <button class="btn btn-primary">SUBMIT</button>
+                </div> -->
+                <div class="col-md-4 footer-box">
+                    <p><b>WRITE YOUR QUERY</b></p>
+                    <div class="mb-3">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Full Name">
+                            <label for="floatingInput">Name</label>
+                    </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 50px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary">SUBMIT</button>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright text-center">© Podosphere</p>
+        </div>
+
+    </section>
+</body>
+
+</html>
